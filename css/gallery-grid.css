@@ -8,6 +8,11 @@
   padding: 16px;
 }
 
+.grid--margin-x {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .grid-item {
   width: 100%;
 }
@@ -34,6 +39,14 @@
 @media (max-width: 480px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .grid--margin {
+    padding: 0px;
+  }
+
+  .grid--margin-x {
+    padding: 0px;
   }
 }
 

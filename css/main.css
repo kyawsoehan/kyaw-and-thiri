@@ -12710,7 +12710,7 @@ img {
 
 /* Countdown */
 .countdown.section {
-  background-image: url(../images/countdown-bg.jpg);
+  background-image: url(../images/countdown-bg.webp);
 }
 .countdown .heading {
   margin-bottom: 8em;

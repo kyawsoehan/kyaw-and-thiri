@@ -23,6 +23,15 @@
   display: block;
 }
 
+.grid-item--span-2 {
+  grid-column: span 2;
+}
+
+.grid-item--span-3 {
+  grid-column: span 3;
+}
+
+
 
 @media (max-width: 14024px) {
   .grid {
